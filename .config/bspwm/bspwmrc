@@ -6,7 +6,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 nitrogen --restore &
 #feh --bg-scale 4k-Cityscape-Desktop-Wallpaper.png &
 nm-applet &
-blueman-applet &
+blueman-tray &
 dunst &
 picom &
 #exec /usr/bin/trayer --edge top --align right --expand true --width 8 --height 22 --transparent true --tint 0x212A3E --alpha 0 &
