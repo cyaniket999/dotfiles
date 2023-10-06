@@ -20,7 +20,7 @@ alt + b
       firefox
 
 alt + f
-      thunar
+      pcmanfm
 
 alt + p
       flameshot full --path=/home/aniket

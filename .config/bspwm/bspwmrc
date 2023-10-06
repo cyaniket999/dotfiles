@@ -3,12 +3,13 @@
 #Autostart application
 pgrep -x sxhkd > /dev/null || sxhkd &
 ~/.config/polybar/launch.sh &
-nitrogen --restore &
-#feh --bg-scale 4k-Cityscape-Desktop-Wallpaper.png &
+pcmanfm --desktop &
+blueman-applet &
 nm-applet &
-blueman-tray &
 dunst &
 picom &
+#feh --bg-scale 4k-Cityscape-Desktop-Wallpaper.png &
+#nitrogen --restore &
 #exec /usr/bin/trayer --edge top --align right --expand true --width 8 --height 22 --transparent true --tint 0x212A3E --alpha 0 &
 
 #bspwm settings
