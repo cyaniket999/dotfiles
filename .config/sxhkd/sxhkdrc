@@ -25,6 +25,9 @@ alt + f
 alt + p
       flameshot full --path=/home/aniket
 
+super + alt + p
+      flameshot gui --path=/home/aniket
+
 alt + m
       thunderbird
 
