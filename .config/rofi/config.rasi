@@ -42,21 +42,21 @@ mainbox {
 
 // Inputs //
 inputbar {
-    enabled:                     false;
+    enabled:                     true;
 }
 
 
 // Lists //
 listbox {
-    padding:                     5px;
-    spacing:                     5px;
+    padding:                     3px;
+    spacing:                     3px;
     orientation:                 horizontal;
     children:                    [ "mode-switcher" , "listview" ];
     background-image:            url("~/.config/swww/wall.blur", height);
 }
 listview {
-    padding:                     20px;
-    spacing:                     5px;
+    padding:                     5px;
+    spacing:                     3px;
     enabled:                     true;
     columns:                     1;
     cycle:                       true;
@@ -73,9 +73,9 @@ listview {
 }
 mode-switcher {
     orientation:                 vertical;
-    width:                       100px;
+    width:                       50px;
     enabled:                     true;
-    padding:                     60px 10px 60px 10px;
+    padding:                     30px 5px 30px 5px;
     spacing:                     15px;
     background-color:            transparent;
 }
@@ -94,8 +94,8 @@ button selected {
 // Elements //
 element {
     enabled:                     true;
-    spacing:                     30px;
-    padding:                     10px;
+    spacing:                     15px;
+    padding:                     5px;
     border-radius:               20px;
     cursor:                      pointer;
     background-color:            transparent;

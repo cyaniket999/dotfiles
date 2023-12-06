@@ -8,7 +8,7 @@ blueman-applet &
 nm-applet &
 dunst &
 picom &
-#feh --bg-scale 4k-Cityscape-Desktop-Wallpaper.png &
+feh --bg-scale /home/aniket/Pictures/backgrounds/1.jpg &
 #nitrogen --restore &
 #exec /usr/bin/trayer --edge top --align right --expand true --width 8 --height 22 --transparent true --tint 0x212A3E --alpha 0 &
 
