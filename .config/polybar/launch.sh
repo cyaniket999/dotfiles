@@ -7,8 +7,8 @@
 killall polybar
 
 # Launch polybar
-polybar main -c $(dirname $0)/config.ini &
+#polybar main &
 
-#polybar main 2>&1 | tee -a /tmp/polybar1.log & disown
+polybar main 2>&1 | tee -a /tmp/polybar1.log & disown
 
 echo "Bars launched..."
