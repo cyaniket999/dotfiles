@@ -3,7 +3,7 @@
 #Autostart application
 pgrep -x sxhkd > /dev/null || sxhkd &
 ~/.config/polybar/launch.sh &
-pcmanfm --desktop &
+#pcmanfm --desktop &
 blueman-applet &
 nm-applet &
 dunst &

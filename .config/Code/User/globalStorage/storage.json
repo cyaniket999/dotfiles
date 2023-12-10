@@ -1,0 +1,34 @@
+{
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1702218159418": "__default__profile__"
+        }
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "6808fb68e74fed3faad9fb58481883f95b6dee8d7dd6b76be5c77ee7e065de94",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1702218159418"
+            }
+        ]
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/aniket/.config/Code/Backups/1702218159418",
+            "uiState": {
+                "mode": 1,
+                "x": 734,
+                "y": 434,
+                "width": 696,
+                "height": 421
+            }
+        },
+        "openedWindows": []
+    }
+}
