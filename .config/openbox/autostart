@@ -18,10 +18,10 @@
 
 #Autostart application
 
-nitrogen --restore &
+feh --bg-scale /home/aniket/Pictures/backgrounds/2.jpg &
 plank &
 ~/.config/polybar/launch.sh &
-picom &
+#picom &
 nm-applet &
 blueman-applet &
 dunst &
