@@ -12,6 +12,5 @@ killall polybar
 polybar center 2>&1 | tee -a /tmp/polybar1.log & disown
 polybar left 2>&1 | tee -a /tmp/polybar1.log & disown
 polybar right 2>&1 | tee -a /tmp/polybar1.log & disown
-polybar tray 2>&1 | tee -a /tmp/polybar1.log & disown
 
 echo "Bars launched..."
