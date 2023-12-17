@@ -1,6 +1,28 @@
 #
 # wm independent hotkeys
-#
+
+#hotkeys
+
+super + F2
+      brightnessctl s +10% 
+
+super + F1
+      brightnessctl s 10%- 
+
+super + F5
+      brightnessctl s --device=smc::kbd_backlight 10%-
+
+super + F6
+      brightnessctl s --device=smc::kbd_backlight +10%
+
+XF86AudioMute
+          pactl set-sink-mute 0 toggle
+
+XF86AudioLowerVolume
+           pactl -- set-sink-volume 0 -10%
+
+XF86AudioRaiseVolume
+           pactl -- set-sink-volume 0 +10%
 
 # terminal emulator
 super + Return
