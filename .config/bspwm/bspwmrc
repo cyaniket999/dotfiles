@@ -3,10 +3,9 @@
 #Autostart application
 pgrep -x sxhkd > /dev/null || sxhkd &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+xidlehook --not-when-audio --not-when-fullscreen --timer 1800 'systemctl suspend-then-hibernate' '' &
 ~/.config/polybar/launch.sh &
 #pcmanfm -d &
-blueman-applet &
-nm-applet &
 dunst &
 #picom &
 feh --bg-fill /home/aniket/Pictures/backgrounds/1.jpg &
