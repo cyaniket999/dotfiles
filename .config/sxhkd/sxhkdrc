@@ -33,10 +33,10 @@ alt + w
       rofi -show window
 
 alt + r
-      rofi -show drun
+      /home/aniket/.config/rofi/launchers/type-3/launcher.sh
 
 super + alt + r
-              rofi -show run
+      /home/aniket/.config/rofi/launchers/type-3/run.sh
 
 alt + b
       firefox
@@ -53,8 +53,6 @@ super + alt + p
 alt + m
       thunderbird
 
-super + x
-      systemctl suspend
 
 # make sxhkd reload its configuration files:
 super + Escape

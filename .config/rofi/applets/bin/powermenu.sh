@@ -24,23 +24,23 @@ fi
 # Options
 layout=`cat ${theme} | grep 'USE_ICON' | cut -d'=' -f2`
 if [[ "$layout" == 'NO' ]]; then
-	option_1=" Lock"
-	option_2=" Logout"
-	option_3=" Suspend"
-	option_4=" Hibernate"
-	option_5=" Reboot"
-	option_6=" Shutdown"
-	yes=' Yes'
-	no=' No'
+	option_1=" Lock"
+	option_2="󰗽 Logout"
+	option_3="󰤁 Suspend"
+	option_4="󰤄 Hibernate"
+	option_5="󰜉 Reboot"
+	option_6=" Shutdown"
+	yes=' Yes'
+	no=' No'
 else
-	option_1=""
-	option_2=""
-	option_3=""
-	option_4=""
-	option_5=""
-	option_6=""
-	yes=''
-	no=''
+	option_1=" " 
+	option_2="󰗽 "
+	option_3="󰤁 "
+	option_4="󰤄 "
+	option_5="󰜉 "
+	option_6=" "
+	yes=' Yes'
+	no=' No'
 fi
 
 # Rofi CMD
@@ -90,11 +90,11 @@ confirm_run () {
 # Execute Command
 run_cmd() {
 	if [[ "$1" == '--opt1' ]]; then
-		betterlockscreen -l
+		slock
 	elif [[ "$1" == '--opt2' ]]; then
 		confirm_run 'kill -9 -1'
 	elif [[ "$1" == '--opt3' ]]; then
-		confirm_run 'mpc -q pause' 'amixer set Master mute' 'systemctl suspend'
+		confirm_run 'systemctl suspend'
 	elif [[ "$1" == '--opt4' ]]; then
 		confirm_run 'systemctl hibernate'
 	elif [[ "$1" == '--opt5' ]]; then
