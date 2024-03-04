@@ -1,6 +1,7 @@
 #
-# wm independent hotkeys
-
+# customs hotkeys
+alt + v
+    alacritty
 #hotkeys
 
 super + F2
